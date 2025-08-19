@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body>
+
+    <form action="CadastroConsulta">
+
+        <label for="data">Data e hora da Consulta</label>
+        <input type="datetime-local" id="data" name="data">
+
+        <p>Especialidade desejada</p>
+        <div class="opcoes">
+            <input type="radio" id="clinicoGeral" name="Especialidade" value="clinicoGeral">
+            <label for="clinicoGeral">Clínico Geral</label>
+
+            <input type="radio" id="Odontologia" name="Especialidade" value="Odontologia">
+            <label for="Odontologia">Odontologia</label>
+
+            <input type="radio" id="Psicologia" name="Especialidade" value="Psicologia">
+            <label for="Psicologia">Psicologia</label>
+        </div>
+
+        <label for="mesNascimento">Mês de nascimento</label>
+        <input type="month" id="mesNascimento" name="mesNascimento">
+
+        <label for="tempoEspera">Tempo de espera tolerável (minutos)</label>      
+        <input type="range" id="tempoEspera" name="tempoEspera" min="0" max="60" step="1">
+
+        <p>Necessidades especiais:</p>
+        <div class="opcoes">
+            <input type="checkbox" id="Acessibilidade" name="necessidade" value="Acessibilidade">
+            <label for="Acessibilidade">Acessibilidade</label>
+
+            <input type="checkbox" id="TradutorLibras" name="necessidade" value="TradutorLibras">
+            <label for="TradutorLibras">Tradutor de Libras</label>
+        </div>
+        <div class="opcoes2">
+            <input type="checkbox" id="Acompanhante" name="necessidade" value="Acompanhante">
+            <label for="Acompanhante">Acompanhante</label>
+
+            <input type="checkbox" id="Outros" name="necessidade" value="Outros">
+            <label for="Outros">Outros</label>
+        </div>
+        
+
+        <p>Grau de urgência</p>
+        <div class="opcoes">
+            <input type="radio" id="Baixo" name="Urgencia" value="Baixo">
+            <label for="Baixo">Baixo</label>
+
+            <input type="radio" id="Medio" name="Urgencia" value="Medio">
+            <label for="Medio">Médio</label>
+
+            <input type="radio" id="Alto" name="Urgencia" value="Alto">
+            <label for="Alto">Alto</label>
+        </div>
+
+        <button type="submit">Agendar Consulta</button>        
+
+        <div class="navegacao">
+            <a href="exercicio-01.html" class="btn">1</a>
+            <a href="exercicio-02.html" class="btn">2</a>
+            <a href="exercicio-03.html" class="btn">3</a>
+        </div>
+    </form>
+
+</body>
+</html>

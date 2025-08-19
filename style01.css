@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+form {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="datetime-local"],
+form input[type="month"],
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border 0.3s;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+form .opcoes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+form .opcoes2 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+form .opcoes label {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+form input[type="range"] {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #3b3f46, #3b3f46);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: linear-gradient(90deg, #000000, #000000);
+}
+
+.navegacao {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.navegacao .btn {
+  background: #1d4ed8;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.navegacao .btn:hover {
+  background: #0f3ab3;
+}
+
+input[type="range" i] {
+    appearance: auto;
+    cursor: default;
+    color: (rgb(16, 16rgb(7, 11, 231) 255, 255));
+    padding: initial;
+    border: initial;
+    margin: 2px;
+}

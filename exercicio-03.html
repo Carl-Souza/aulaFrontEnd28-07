@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+    <link rel="stylesheet" href="style03.css">
+</head>
+<body>
+
+    <form action="montarViagem">
+
+        <label for="data">Data e hora de partida</label>
+        <input type="datetime-local" id="data" name="data">
+
+        <p>Destinos desejados:</p>
+        <div>
+            <div class="opcoes">
+                <input type="checkbox" id="Praia" name="locais" value="Praia">
+                <label for="Praia">Praia</label>                
+                <input type="checkbox" id="Cidade" name="locais" value="Cidade">
+                <label for="Cidade">Cidade</label>
+            </div>
+
+           <div class="opcoes2">
+            <input type="checkbox" id="Montanha" name="locais" value="Montanha">
+            <label for="Montanha">Montanha</label>
+
+            <input type="checkbox" id="Campo" name="locais" value="Campo">
+            <label for="Campo">Campo</label>
+          </div>         
+        </div>
+        
+
+   <p>Número de viajantes</p>
+        <div class="numeroViajantes">
+          <input type="number" id="tempo" name="tempo" min="0" max="24" placeholder="0" style="width: 150px;">
+        </div>
+        <div>
+            <label for="comentarios"> Comentários adicionais</label>
+            <textarea style="width: 342px; height: 90px;"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>        
+
+        <div class="navegacao">
+            <a href="exercicio-01.html" class="btn">1</a>
+            <a href="exercicio-02.html" class="btn">2</a>
+            <a href="exercicio-03.html" class="btn">3</a>            
+        </div>
+    </form>
+
+</body>
+</html>
